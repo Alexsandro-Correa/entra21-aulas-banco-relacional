@@ -1,0 +1,7 @@
+CREATE TABLE curso(
+
+id INTEGER PRIMARY KEY UNIQUE,
+nome TEXT NOT NULL,
+quantidade_aulas INTEGER NOT NULL,
+valor TEXT NOT NULL
+);
